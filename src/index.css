@@ -292,5 +292,25 @@ code {
 }
 
 .FirstBenefit {
-  
+  position: relative; 
+  left: 0vw; 
+  clip-path: inset(0 0 0 0); 
+  object-fit: cover; 
+  overflow: hidden; 
+  height: 65%;
+}
+
+.SecondBenefit{
+  margin-left: 3vw;
+}
+
+.ThirdBenefit {
+  margin-top: 2vw;
+  left: -2vw;
+
+  position: relative; 
+  left: -2vw; 
+  clip-path: inset(0 0 0 2vw); 
+  object-fit: cover; 
+  overflow: hidden; 
 }
