@@ -314,3 +314,11 @@ code {
   object-fit: cover; 
   overflow: hidden; 
 }
+
+#secondBenefit {
+  margin-top: -55px;
+}
+
+#thirdBenefit {
+  margin-top: 20px;
+}

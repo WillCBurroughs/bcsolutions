@@ -19,12 +19,14 @@ function BenefitsDesktop() {
             paragraphText = "Unique, tailored designs that elevate your brand and captivate audiences."
             imageSRC = {SecondBenefit}
             imgClass = "SecondBenefit"
+            decorationID = "secondBenefit"
         />
         <BenefitCardDesktop 
             headerText = "User-Focused Experiences"
             paragraphText = "Intuitive, responsive designs built for seamless navigation and high conversions."
             imageSRC = {ThirdBenefit}
             imgClass = "ThirdBenefit"
+            decorationID = "thirdBenefit"
         />
     </div>
   );
