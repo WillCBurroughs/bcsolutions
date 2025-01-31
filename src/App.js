@@ -1,10 +1,10 @@
-import logo from './logo.svg';
+import DesktopNavbar from './components/molecules/DesktopNavbar';
 import './index.css';
 
 function App() {
   return (
     <>
-
+      <DesktopNavbar/>
     </>
   );
 }

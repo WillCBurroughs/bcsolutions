@@ -12,3 +12,95 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.desktopNavbar {
+  background-color: rgba(30, 41, 58, 0.75);
+  width: 75%;
+  height: 75px;
+  border-radius: 25px;
+  border: 1px solid #2A4D8E;
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 0; 
+  position: fixed;
+  top: 50px;
+  left: 50%; 
+  transform: translateX(-50%); 
+  z-index: 1000; 
+}
+
+.navbar-left,
+.navbar-right {
+  flex: 1; /* Equal space for left and right sections */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* Left-aligned for left section */
+}
+
+.navbar-right {
+  justify-content: flex-end; /* Right-aligned for right section */
+}
+
+.navbar-center {
+  flex: 1; /* Take up more space in the center */
+  display: flex;
+  justify-content: space-evenly; /* Equal spacing between links */
+  align-items: center;
+}
+
+.logo {
+  display: flex; /* Enables flexbox */
+  justify-content: center; /* Centers horizontally */
+  align-items: center; /* Centers vertically */
+  width: 60px; /* Example width */
+  height: 60px; /* Example height */
+  background-color: #1E293A; /* Background color for the container */
+  border-radius: 19px; 
+  margin-left: 10px;
+  border: 1px solid #2A4D8E;
+  position: relative; /* Ensures compatibility with surrounding elements */
+}
+
+.logoImage {
+  z-index: 1001;
+}
+
+.nav-link {
+  font-size: 16px;
+  color: white;
+  text-transform: capitalize;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #2A4D8E;
+  border-radius: 15px;
+}
+
+.contact-btn {
+  font-size: 16px;
+  color: white;
+  padding: 15px 20px;
+  background-color: black;
+  border-color: #2A4D8E;
+  border-width: 1px;
+  border-style: solid;
+  margin-right: 15px;
+  border-radius: 15px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: "League Spartan";
+}
+
+.contact-btn:hover {
+  background-color: #2A4D8E;
+}
+
+.headerElement{
+  font-family: "rubik", sans-serif;
+  color: #FFFFFF;
+  font-weight: 400;
+}
