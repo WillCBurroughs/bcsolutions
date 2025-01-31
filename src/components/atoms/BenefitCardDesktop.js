@@ -11,7 +11,7 @@ function BenefitCardDesktop(props) {
             {props.paragraphText}
         </p>
         <img src={props.imageSRC} className= {props.imgClass}/>
-        <div className="bottomDecorations">
+        <div className="bottomDecorations" id = {props.decorationID}>
             <div className="bottomLeftDecoration"></div>
             <div className="bottomRightDecoration"></div>
         </div>
