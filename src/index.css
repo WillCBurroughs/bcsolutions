@@ -322,3 +322,38 @@ code {
 #thirdBenefit {
   margin-top: 20px;
 }
+
+.DesktopIconHolder {
+  position: absolute; 
+  top: 1750px; 
+  height: 100px;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 60%; 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 20px; 
+}
+
+.ItemHeader {
+  font-family: "Nunito";
+  font-size: 14px;
+  font-weight: 200;
+  color: #F2F3F8;
+  position: relative;
+  margin-top: 20px;
+}
+
+.holdImage{
+  height: 60px;
+  width: 60px;
+}
+
+.ItemComponentDesktop {
+  display: flex; 
+  flex-direction: column; 
+  align-items: center; 
+  justify-content: center; 
+  text-align: center; 
+  height: 100%; 
+}
