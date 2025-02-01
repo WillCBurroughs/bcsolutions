@@ -537,3 +537,38 @@ code {
   display: flex; 
   justify-content: space-between; 
 }
+
+.holdTextService{
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  position: relative; 
+  text-align: center; 
+}
+
+.ServiceOffered {
+  color: #F2F3F8;
+  font-family: "Nunito";
+  font-size: 36;
+}
+
+.ServiceExplanation {
+  color: #F2F3F8;
+  font-family: "League Spartan";
+  margin-top: -10px;
+  width: 22vw;
+  font-weight: 300;
+}
+
+.WebIMG{
+  transform: translateY(35px);
+}
+
+.AppIMG{
+  transform: translateY(35px);
+}
+
+.RedesignIMG {
+  transform: translateY(35px);
+}
