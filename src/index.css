@@ -357,3 +357,12 @@ code {
   text-align: center; 
   height: 100%; 
 }
+
+.OurTeam {
+  font-family: "Nunito";
+  font-size: 36;
+  color: white;
+  position: absolute;
+  top: 1900px;
+  left: 45%;
+}
