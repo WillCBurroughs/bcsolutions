@@ -12,6 +12,7 @@ import BenefitsDesktop from './components/molecules/BenefitsDesktop';
 import DesktopIconHolder from './components/molecules/DesktopIconHolder';
 import OurTeam from './components/atoms/OurTeam';
 import OurTeamDesktop from './components/molecules/OurTeamDesktop';
+import ServicesWeOffer from './components/atoms/ServicesWeOffer';
 
 function App() {
   return (
@@ -38,6 +39,7 @@ function App() {
         <DesktopIconHolder/>
         <OurTeam/> 
         <OurTeamDesktop/>
+        <ServicesWeOffer/>
       </div>
     </>
   );
