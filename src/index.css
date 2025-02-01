@@ -417,7 +417,7 @@ code {
 
 .bottomMemberDecorations {
   position: absolute;
-  top: calc(40vw - 20px);
+  top: calc(40vw - 10px);
   transform: translateX(23px);
   width: calc(38vw - 30px) ;
   height: 30px;
@@ -433,6 +433,48 @@ code {
   border-radius: 50%;
 }
 
-/* <div className="bottomMemberDecorations" id = {props.decorationID}>
-<div className="bottomLeftMemberDecoration"></div>
-<div className="bottomRightMemberDecoration"></div> */
+.will {
+  position: absolute;
+  top: 40%;
+  left: 26%; 
+  transform: translate(-50%, -50%);
+  width: 28vw;
+}
+
+.holdTextMember {
+  display: flex; 
+  flex-direction: column; 
+  align-items: flex-start; 
+  justify-content: center; 
+  text-align: left; 
+  padding-left: 30px;
+  margin-top: 25vw;
+}
+
+.holdTextMember > * {
+  margin: 10px 0;
+}
+
+.JobTitle {
+  margin-top: -9px;
+  color: #555968;
+  font-family: "Nunito";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+.TeamMemberName {
+  font-family: "Nunito";
+  font-size: 26px;
+  color: #F2F3F8;
+  font-weight: 200;
+}
+
+.JobDescription {
+  margin-top: 15px;
+  font-size: 16px;
+  line-height: 2.5vh;
+  font-weight: 200;
+  font-family: "League Spartan";
+  width: 33vw;
+}
