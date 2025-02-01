@@ -784,3 +784,15 @@ input:focus {
 .HoldSubmit {
   align-items: center;
 }
+
+.BottomFooter {
+  position: absolute; 
+  top: 4400px;
+  left: 50%; 
+  transform: translateX(-50%); 
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  width: 60%; 
+  z-index: 5;
+}
