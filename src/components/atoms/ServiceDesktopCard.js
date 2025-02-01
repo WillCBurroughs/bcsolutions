@@ -8,18 +8,15 @@ function ServiceDesktopCard(props) {
             <div className="TopLeftDecoration"></div>
             <div className="TopRightDecoration"></div>
         </div>
-        <img src={props.imageSRC} className= {props.imgClass}/>
 
-        <div className='holdTextMember'>
-            <h3 className='TeamMemberName'>
+        <div className='holdTextService'>
+            <h3 className='ServiceOffered'>
                 {props.headerText}
             </h3>
-            <p className='JobTitle'>
-                {props.JobTitle}
+            <p className='ServiceExplanation'>
+                {props.serviceExplanation}
             </p>
-            <p className='JobDescription'>
-                {props.JobDescription}
-            </p>
+            <img src={props.imageSRC} className= {props.imgClass}/>
         </div>
         <div className="bottomServiceDecorations" id = {props.decorationID}>
             <div className="bottomLeftMemberDecoration"></div>
