@@ -43,9 +43,11 @@ function ContactDesktop() {
         <div className='HoldFormRow'>
             <FormElement
                 placeholder = "Email"
+                type = "email"
             />
             <FormElement
                 placeholder = "Phone Number"
+                type = "tel"
             />
             <FormElement
                 placeholder = "Desired Start Date"
@@ -63,7 +65,14 @@ function ContactDesktop() {
             />
         </div>
         <div className='HoldFormRow'>
-            
+        <textarea 
+            id="message" 
+            name="message" 
+            rows="5" 
+            cols="40" 
+            placeholder="Project Details"
+            class="form-input"
+    ></textarea>
         </div>
         <div className='HoldFormRow'>
             
