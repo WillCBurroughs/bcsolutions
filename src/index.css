@@ -486,3 +486,12 @@ code {
   font-family: "League Spartan";
   width: 33vw;
 }
+
+.OurServices {
+  font-family: "Nunito";
+  font-size: 36;
+  color: white;
+  position: absolute;
+  top: 2800px;
+  left: 45%;
+}
