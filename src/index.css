@@ -637,6 +637,15 @@ input {
   box-shadow: none; /* Removes box shadow */
 }
 
+input::placeholder {
+  color: #F2F3F8;
+  opacity: 0.4;
+}
+
+input:focus {
+  background-color: transparent;
+}
+
 .form-input {
   background-color: rgba(217, 217, 217, 0.02);
   height: 40px;
