@@ -16,6 +16,7 @@ import ServicesWeOffer from './components/atoms/ServicesWeOffer';
 import ServicesDesktop from './components/molecules/ServicesDesktop';
 import GetInTouch from './components/atoms/GetInTouch';
 import ContactDesktop from './components/molecules/ContactDesktop';
+import DesktopFooter from './components/molecules/DesktopFooter';
 
 function App() {
   return (
@@ -29,7 +30,6 @@ function App() {
         <RadialBlur top = "140"/>
         <BackgroundDesign top="180" />
         <RadialBlur top = "200"/>
-        <BackgroundDesign top = "240" />
         <RadialBlur top = "260"/>
       </div>
       <div className='content-layer'>
@@ -48,6 +48,7 @@ function App() {
         <ServicesDesktop/>
         <GetInTouch/>
         <ContactDesktop/>
+        <DesktopFooter/>
       </div>
     </>
   );
