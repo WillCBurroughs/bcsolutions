@@ -14,6 +14,7 @@ import OurTeam from './components/atoms/OurTeam';
 import OurTeamDesktop from './components/molecules/OurTeamDesktop';
 import ServicesWeOffer from './components/atoms/ServicesWeOffer';
 import ServicesDesktop from './components/molecules/ServicesDesktop';
+import GetInTouch from './components/atoms/GetInTouch';
 
 function App() {
   return (
@@ -27,6 +28,8 @@ function App() {
         <RadialBlur top = "140"/>
         <BackgroundDesign top="180" />
         <RadialBlur top = "200"/>
+        <BackgroundDesign top = "240" />
+        <RadialBlur top = "260"/>
       </div>
       <div className='content-layer'>
         <DesktopNavbar/>
@@ -42,6 +45,7 @@ function App() {
         <OurTeamDesktop/>
         <ServicesWeOffer/>
         <ServicesDesktop/>
+        <GetInTouch/>
       </div>
     </>
   );

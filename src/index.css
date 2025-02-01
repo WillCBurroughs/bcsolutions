@@ -572,3 +572,28 @@ code {
 .RedesignIMG {
   transform: translateY(35px);
 }
+
+.GetInTouch {
+  position: absolute;
+  display: flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center; 
+  width: 100vw;
+  top: 3500px;
+}
+
+.GetInTouch h3 {
+  color: #F2F3F8;
+  font-family: "Nunito";
+  font-size: 36;
+}
+
+.GetInTouch p {
+  color: #FFFFFF;
+  font-family: "League Spartan";
+  font-size: 16;
+  font-weight: 200;
+  margin-top: -10px;
+}
