@@ -364,5 +364,53 @@ code {
   color: white;
   position: absolute;
   top: 1900px;
-  left: 45%;
+  left: 47%;
+}
+
+.OurTeamDesktop {
+  position: absolute; 
+  top: 2300px; 
+  height: 600px;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 80%; 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 20px; 
+}
+
+.TeamMemberDesktop {
+  height: 40vw;
+  width: 39vw;
+  color: white;
+  background-color: #0C1016;
+  border-radius: 15px;
+  border: 1px solid #2E333B;
+  overflow: hidden;
+}
+
+.TopMemberDecorations {
+  position: absolute;
+  top: 45px;
+  transform: translateX(23px);
+  width: calc(38vw - 30px) ;
+  height: 30px;
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.TopLeftDecoration {
+  width: 6px;
+  height: 6px;
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
+}
+
+.TopRightDecoration {
+  width: 6px;
+  height: 6px;
+  position: relative;
+  background-color: white;
+  border-radius: 50%;
 }
