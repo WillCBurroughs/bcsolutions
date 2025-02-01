@@ -618,10 +618,33 @@ code {
 
 .HoldFormRow {
   width: 102%;
-  background-color: #1356b9;
   height: 40px;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
+}
+
+input {
+  appearance: none; /* Removes platform-specific styling */
+  -webkit-appearance: none; /* Removes WebKit-specific styling */
+  -moz-appearance: none; /* Removes Mozilla-specific styling */
+  border: none; /* Removes border */
+  outline: none; /* Removes focus outline */
+  background: none; /* Removes background */
+  padding: 0; /* Resets padding */
+  margin: 0; /* Resets margin */
+  box-shadow: none; /* Removes box shadow */
+}
+
+.form-input {
+  background-color: rgba(217, 217, 217, 0.02);
+  height: 40px;
+  width: 25vw;
+  border-radius: 5px;
+  border: 1px solid #2E333B;
+  padding-left: 15px;
+  font-size: 16px;
+  color: #F2F3F8;
+  font-family: "Nunito"
 }
