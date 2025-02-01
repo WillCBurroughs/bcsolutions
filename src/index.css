@@ -764,3 +764,23 @@ input:focus {
   height: 80px;
   padding-top: 10px;
 }
+
+.SubmitContact {
+  background-color: rgba(101,119,201,0.1);
+  border: 1px solid #606A7B;
+  border-radius: 15px;
+  padding: 12px 45px;
+  font-family: "League Spartan";
+  font-size: 18px;
+  color: #FFFFFF;
+}
+
+.SubmitContact:hover {
+  background-color: #2A4D8E;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.HoldSubmit {
+  align-items: center;
+}
