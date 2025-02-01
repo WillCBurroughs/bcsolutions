@@ -597,3 +597,19 @@ code {
   font-weight: 200;
   margin-top: -10px;
 }
+
+.ContactDesktop {
+  position: absolute; 
+  top: 3870px; 
+  height: 500px;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 80%; 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 20px; 
+  background-color: #0C1016;
+  border-radius: 15px;
+  border: 1px solid #2E333B;
+  overflow: hidden;
+}
