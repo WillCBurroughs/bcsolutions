@@ -688,3 +688,63 @@ input:focus {
   right: 15px;
   transition: background-color 0.3s ease;
 }
+
+.slider-wrapper {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 20px;
+}
+
+/* Input Slider */
+.slider {
+-webkit-appearance: none;
+appearance: none;
+width: 70%;
+height: 20px;
+border-radius: 10px;
+background: linear-gradient(to right, #FF7843 0%, #FF7843 var(--progress), #001336 var(--progress), #001336 100%);
+outline: none;
+cursor: pointer;
+}
+
+.slider::-webkit-slider-thumb {
+-webkit-appearance: none;
+appearance: none;
+width: 40px;
+height: 40px;
+background: #001336; /* Thumb color */
+border: 5px solid #FF7843; /* Outer border matches the bar's progress color */
+border-radius: 50%;
+cursor: pointer;
+position: relative;
+}
+
+.slider::-moz-range-thumb {
+width: 40px;
+height: 40px;
+background: #001336;
+border: 5px solid #f90;
+border-radius: 50%;
+cursor: pointer;
+}
+
+/* Value Display */
+.slider-value {
+  font-size: 25px;
+  font-weight: bold;
+  color: #3CC9A7;
+  min-width: 80px;
+  font-family: "Jura", sans-serif;
+  padding-left: 55px;
+}
+
+/* Label */
+.slider-label {
+  font-size: 16px;
+  color: #1B386D;
+}
+
+.FullRow {
+  width: 70vw;
+}
