@@ -15,6 +15,7 @@ import OurTeamDesktop from './components/molecules/OurTeamDesktop';
 import ServicesWeOffer from './components/atoms/ServicesWeOffer';
 import ServicesDesktop from './components/molecules/ServicesDesktop';
 import GetInTouch from './components/atoms/GetInTouch';
+import ContactDesktop from './components/molecules/ContactDesktop';
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
         <ServicesWeOffer/>
         <ServicesDesktop/>
         <GetInTouch/>
+        <ContactDesktop/>
       </div>
     </>
   );
