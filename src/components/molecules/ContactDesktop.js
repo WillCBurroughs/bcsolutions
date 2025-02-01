@@ -7,15 +7,25 @@ function ContactDesktop() {
     <div className='ContactDesktop'>
         <div className='HoldFormRow'>
             <FormElement 
-                placeholder = "Hello"
+                placeholder = "Name"
             />
-            <FormElement/>
-            <FormElement/>
+            <FormElement
+                placeholder = "Title"
+            />
+            <FormElement
+                placeholder = "Company"
+            />
         </div>
         <div className='HoldFormRow'>
-            <FormElement/>
-            <FormElement/>
-            <FormElement/>
+            <FormElement
+                placeholder = "Email"
+            />
+            <FormElement
+                placeholder = "Phone Number"
+            />
+            <FormElement
+                placeholder = "Desired Start Date"
+            />
         </div>
         <div className='HoldFormRow'>
 
