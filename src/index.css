@@ -441,6 +441,14 @@ code {
   width: 28vw;
 }
 
+.noah {
+  position: absolute;
+  top: 40%;
+  left: 76%; 
+  transform: translate(-50%, -50%);
+  width: 31vw;
+}
+
 .holdTextMember {
   display: flex; 
   flex-direction: column; 
