@@ -656,7 +656,8 @@ input:focus {
   padding-left: 15px;
   font-size: 16px;
   color: #F2F3F8;
-  font-family: "Nunito"
+  font-family: "Nunito";
+  transition: background-color 0.3s ease;
 }
 
 .form-element {
@@ -666,6 +667,10 @@ input:focus {
   position: relative;
 }
 
+.form-element:focus-within .FormCircle {
+  background-color: #F2F3F8;
+}
+
 .FormCircle {
   width: 6px;
   height: 6px;
@@ -673,4 +678,5 @@ input:focus {
   border-radius: 50%;
   position: absolute;
   right: 15px;
+  transition: background-color 0.3s ease;
 }
