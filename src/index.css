@@ -495,3 +495,45 @@ code {
   top: 2800px;
   left: 45%;
 }
+
+.ServicesDesktop{
+  position: absolute; 
+  top: 3100px; 
+  height: 450px;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 80%; 
+  display: flex; 
+  justify-content: space-between; 
+  padding: 20px; 
+}
+
+.ServiceDesktopCard {
+  height: 27vw;
+  width: 26vw;
+  color: white;
+  background-color: #0C1016;
+  border-radius: 15px;
+  border: 1px solid #2E333B;
+  overflow: hidden;
+}
+
+.TopServiceDecorations {
+  position: absolute;
+  top: 45px;
+  transform: translateX(15px);
+  width: calc(26vw - 30px) ;
+  height: 30px;
+  display: flex; 
+  justify-content: space-between; 
+}
+
+.bottomServiceDecorations {
+  position: absolute;
+  top: 400px;
+  transform: translateX(15px);
+  width: calc(26vw - 30px) ;
+  height: 100px;
+  display: flex; 
+  justify-content: space-between; 
+}
