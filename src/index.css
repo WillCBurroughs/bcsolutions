@@ -668,8 +668,8 @@ input:focus {
 .FormCircle {
   width: 6px;
   height: 6px;
-  background-color: white;
+  background-color: #f2f3f83f;
   border-radius: 50%;
   position: absolute;
-  right: 10px;
+  right: 15px;
 }
