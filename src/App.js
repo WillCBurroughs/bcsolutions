@@ -10,6 +10,7 @@ import Create from './components/atoms/Create';
 import BenefitsHeader from './components/atoms/BenefitsHeader';
 import BenefitsDesktop from './components/molecules/BenefitsDesktop';
 import DesktopIconHolder from './components/molecules/DesktopIconHolder';
+import OurTeam from './components/atoms/OurTeam';
 
 function App() {
   return (
@@ -34,6 +35,7 @@ function App() {
         <BenefitsHeader/>
         <BenefitsDesktop/>
         <DesktopIconHolder/>
+        <OurTeam/> 
       </div>
     </>
   );
