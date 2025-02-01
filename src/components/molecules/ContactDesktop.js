@@ -72,10 +72,12 @@ function ContactDesktop() {
             cols="40" 
             placeholder="Project Details"
             class="form-input"
-    ></textarea>
+        ></textarea>
         </div>
-        <div className='HoldFormRow'>
-            
+        <div className='HoldSubmit'>
+            <button className="SubmitContact">
+                Submit 
+            </button>
         </div>
     </div>
   );
