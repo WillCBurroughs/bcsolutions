@@ -6,7 +6,9 @@ function ContactDesktop() {
   return (
     <div className='ContactDesktop'>
         <div className='HoldFormRow'>
-            <FormElement placeholder = "Hello"/>
+            <FormElement 
+                placeholder = "Hello"
+            />
             <FormElement/>
             <FormElement/>
         </div>

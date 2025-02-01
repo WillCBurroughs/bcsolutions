@@ -1,7 +1,7 @@
 import '../../App.css';
 import React from 'react';
 
-export default function FormElement({ label, type = "text", name, value, onChange, className }) {
+export default function FormElement({ label, type = "text", name, value, onChange, className, placeholder }) {
   return (
     <div className="form-element">
       <input
@@ -11,10 +11,11 @@ export default function FormElement({ label, type = "text", name, value, onChang
         onChange={onChange}
         required
         className= {className || "form-input"}
-        placeholder=" " 
+        placeholder= {placeholder}
         autoComplete="off"
       />
       <label className="form-label">{label}</label>
+      
     </div>
   );
 }
