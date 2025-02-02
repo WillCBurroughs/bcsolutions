@@ -15,7 +15,7 @@ function DesktopNavbar() {
       <HeaderNavbar headerText="about" />
     </div>
     <div class="navbar-right">
-      <div class="contact-btn">Contact us</div>
+      <a href="#ContactPlace"><div class="contact-btn">Contact us</div></a>
     </div>
   </div>
   );
