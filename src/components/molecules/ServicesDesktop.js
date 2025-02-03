@@ -20,6 +20,7 @@ function ServicesDesktop() {
             serviceExplanation = "Seamless mobile experiences through innovative design and powerful development."
             imageSRC = {AppImage}
             imgClass = "AppIMG"
+            decorationID = "ContactLocation"
         />
         <ServiceDesktopCard
             headerText = "Digital Revamp"
