@@ -3,7 +3,7 @@ import '../../index.css'
 
 function ServicesWeOffer() {
   return (
-    <h3 className='OurServices'> Services We Offer</h3>
+    <h3 className='OurServices' id='services'> Services We Offer</h3>
   );
 }
 
