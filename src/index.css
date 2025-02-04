@@ -397,13 +397,20 @@ code {
   height: 100%; 
 }
 
+.centerAlignOurTeam {
+  position: absolute;
+  top: 1900px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;           
+  text-align: center; 
+  width: 100vw;
+}
+
 .OurTeam {
   font-family: "Nunito";
   font-size: 36px;
   color: white;
-  position: absolute;
-  top: 1900px;
-  left: 47%;
 }
 
 .OurTeamDesktop {

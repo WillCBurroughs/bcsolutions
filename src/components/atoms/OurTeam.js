@@ -3,7 +3,9 @@ import '../../index.css'
 
 function OurTeam() {
   return (
-    <h3 className='OurTeam' id="team"> Our Team</h3>
+    <div className='centerAlignOurTeam'>
+      <h3 className='OurTeam' id="team"> Our Team</h3>
+    </div>
   );
 }
 
