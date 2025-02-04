@@ -763,6 +763,7 @@ input:focus {
   margin-top: 10px;
   margin-left: 5px;
   z-index: 10;
+  pointer-events: none;
 }
 
 .FullRow {
