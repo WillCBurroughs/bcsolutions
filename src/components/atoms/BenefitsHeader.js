@@ -3,7 +3,9 @@ import '../../index.css'
 
 function BenefitsHeader() {
   return (
-    <h3 className='BenefitsHeader' id= "value"> Benefits of use</h3>
+    <div className='centerAlignBenefits'>
+      <h3 className='BenefitsHeader' id= "value"> Benefits of use</h3>
+    </div>
   );
 }
 

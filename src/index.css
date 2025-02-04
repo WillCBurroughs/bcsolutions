@@ -240,12 +240,20 @@ code {
   left: 15%;
 }
 
+.centerAlignBenefits{
+  position: absolute;
+  top: 1100px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;           
+  text-align: center; 
+  width: 100vw;
+}
+
 .BenefitsHeader {
   font-family: "Nunito";
   font-size: 36px;
   color: white;
-  position: absolute;
-  top: 1100px;
   left: 45%;
   font-weight: medium;
 }
