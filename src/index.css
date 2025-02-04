@@ -153,10 +153,17 @@ code {
   pointer-events: none;
 }
 
-.BCSolutions {
-  position: absolute;
+.centerAlignBC {
   top: 170px;
-  left: 40%;
+  display: flex;
+  justify-content: center; 
+  align-items: center;           
+  text-align: center; 
+  position: absolute;
+  width: 100vw;
+}
+
+.BCSolutions {
   font-size: 60px;
   font-family: "Nunito";
   font-weight: 200;

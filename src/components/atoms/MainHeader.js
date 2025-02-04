@@ -3,7 +3,9 @@ import '../../index.css'
 
 function MainHeader() {
   return (
-    <h3 className='BCSolutions'> <span className='Main'>BC</span>Solutions </h3>
+    <div className='centerAlignBC'>
+      <h3 className='BCSolutions'> <span className='Main'>BC</span>Solutions </h3>
+    </div>
   );
 }
 
