@@ -217,11 +217,12 @@ code {
 
 .BenefitsHeader {
   font-family: "Nunito";
-  font-size: 36;
+  font-size: 36px;
   color: white;
   position: absolute;
   top: 1100px;
   left: 45%;
+  font-weight: medium;
 }
 
 .BenefitCardDesktop {
@@ -362,7 +363,7 @@ code {
 
 .OurTeam {
   font-family: "Nunito";
-  font-size: 36;
+  font-size: 36px;
   color: white;
   position: absolute;
   top: 1900px;
@@ -491,7 +492,7 @@ code {
 
 .OurServices {
   font-family: "Nunito";
-  font-size: 36;
+  font-size: 36PX;
   color: white;
   position: absolute;
   top: 2800px;
@@ -589,7 +590,7 @@ code {
 .GetInTouch h3 {
   color: #F2F3F8;
   font-family: "Nunito";
-  font-size: 36;
+  font-size: 36px;
 }
 
 .GetInTouch p {
