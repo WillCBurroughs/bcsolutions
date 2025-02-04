@@ -100,6 +100,7 @@ code {
   cursor: pointer;
   transition: all 0.3s ease;
   font-family: "League Spartan";
+  
 }
 
 
@@ -520,7 +521,8 @@ code {
   height: 27vw;
   width: 26vw;
   color: white;
-  background-color: #0C1016;
+  background-color: #0c101633;
+  z-index: 10;
   border-radius: 15px;
   border: 1px solid #2E333B;
   overflow: hidden;
