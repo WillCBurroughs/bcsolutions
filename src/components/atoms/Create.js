@@ -1,5 +1,5 @@
 import CreateImage from '../../images/Create.png'
-import TestImage from '../../images/Group 46.svg'
+import TestImage from '../../images/HeaderHome.png'
 import '../../index.css'
 
 function Create() {

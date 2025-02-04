@@ -305,6 +305,7 @@ code {
 
 .SecondBenefit{
   margin-left: 3vw;
+  width: 77%;
 }
 
 .ThirdBenefit {
@@ -316,6 +317,7 @@ code {
   clip-path: inset(0 0 0 2vw); 
   object-fit: cover; 
   overflow: hidden; 
+  width: 100%;
 }
 
 #secondBenefit {
