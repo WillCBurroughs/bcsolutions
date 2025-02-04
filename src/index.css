@@ -63,7 +63,7 @@ code {
   height: 60px; /* Example height */
   background-color: #1E293A; /* Background color for the container */
   border-radius: 19px; 
-  margin-left: 10px;
+  margin-left: 7px;
   border: 1px solid #2A4D8E;
   position: relative; /* Ensures compatibility with surrounding elements */
 }
