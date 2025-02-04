@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../index.css';
-import FooterDesktopImage from '../../images/FooterDesktop.png';
+import FooterDesktopImage from '../../images/FooterDesktop.svg';
 
 function DesktopFooter() {
   return (
