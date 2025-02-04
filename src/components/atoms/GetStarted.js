@@ -2,9 +2,11 @@ import '../../index.css';
 
 function GetStarted() {
   return (
-    <div className="getStarted">
-      Get started
-    </div>
+    <a href='#ContactPlace'>
+        <div className="getStarted">
+        Get started
+        </div>
+    </a>
   );
 }
 
