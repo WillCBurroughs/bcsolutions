@@ -3,8 +3,10 @@ import '../../index.css'
 
 function Partnering() {
   return (
-    <p className='partnering'> Partnering with businesses to craft innovative, user-focused websites that captivate audiences, enhance engagement, and deliver impactful results.
-    </p>
+    <div className='centerAlignPartnering'>
+      <p className='partnering'> Partnering with businesses to craft innovative, user-focused websites that captivate audiences, enhance engagement, and deliver impactful results.
+      </p>
+    </div>
   );
 }
 

@@ -3,7 +3,9 @@ import '../../index.css'
 
 function Introducing() {
   return (
-    <h3 className='introducing' id='introducing'> • Introducing •</h3>
+    <div className='centerAlignIntroducing'>
+      <h3 className='introducing' id='introducing'> • Introducing •</h3>
+    </div>
   );
 }
 
