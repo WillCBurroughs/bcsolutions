@@ -3,7 +3,9 @@ import '../../index.css'
 
 function ServicesWeOffer() {
   return (
-    <h3 className='OurServices' id='services'> Services We Offer</h3>
+    <div className='centerAlignOurServices'>
+      <h3 className='OurServices' id='services'> Services We Offer</h3>
+    </div>
   );
 }
 

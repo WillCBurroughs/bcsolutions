@@ -242,7 +242,7 @@ code {
 
 .centerAlignBenefits{
   position: absolute;
-  top: 1100px;
+  top: 1080px;
   display: flex;
   justify-content: center; 
   align-items: center;           
@@ -399,7 +399,7 @@ code {
 
 .centerAlignOurTeam {
   position: absolute;
-  top: 1900px;
+  top: 1880px;
   display: flex;
   justify-content: center; 
   align-items: center;           
@@ -533,13 +533,20 @@ code {
   width: 33vw;
 }
 
+.centerAlignOurServices {
+  position: absolute;
+  top: 2760px;
+  display: flex;
+  justify-content: center; 
+  align-items: center;           
+  text-align: center; 
+  width: 100vw;
+}
+
 .OurServices {
   font-family: "Nunito";
   font-size: 36PX;
   color: white;
-  position: absolute;
-  top: 2800px;
-  left: 45%;
 }
 
 .ServicesDesktop{
@@ -630,7 +637,7 @@ code {
   align-items: center; 
   text-align: center; 
   width: 100vw;
-  top: 3500px;
+  top: 3490px;
 }
 
 .GetInTouch h3 {
