@@ -818,6 +818,7 @@ input:focus {
   height: 80px;
   padding-top: 10px;
   max-height: 130px;
+  min-height: 35px;
 }
 
 .SubmitContact {
