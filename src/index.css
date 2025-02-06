@@ -843,7 +843,7 @@ input:focus {
 
 .BottomFooter {
   position: absolute; 
-  top: 520vh;
+  top: calc(4000px + 40vh);
   left: 50%; 
   transform: translateX(-50%); 
   display: flex;
