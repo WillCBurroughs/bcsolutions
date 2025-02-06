@@ -136,6 +136,7 @@ code {
   display: flex;
   position: absolute;
   text-align: center; 
+  letter-spacing: 5px;
 }
 
 .content-layer {
@@ -198,7 +199,7 @@ code {
   align-items: center;           
   text-align: center; 
   position: absolute;
-  top: 310px;
+  top: 300px;
   width: 100vw;
 }
 
@@ -262,10 +263,11 @@ code {
   height: 25vw;
   width: 26vw;
   color: white;
-  background-color: #0C1016;
+  background-color: #0c10163b;
   border-radius: 15px;
   border: 1px solid #2E333B;
   overflow: hidden;
+  backdrop-filter: blur(5px);
 }
 
 .BenefitCardDesktop h3{
@@ -330,11 +332,12 @@ code {
 
 .FirstBenefit {
   position: relative; 
-  left: 0vw; 
+  left: 2vw; 
+  top: 2vw;
   clip-path: inset(0 0 0 0); 
   object-fit: cover; 
   overflow: hidden; 
-  height: 65%;
+  height: 55%;
 }
 
 .SecondBenefit{
@@ -676,6 +679,7 @@ code {
   width: 102%;
   height: 40px;
   display: flex;
+  margin-top: -10px;
   flex-direction: row;
   align-items: center;
   justify-content: space-between;
@@ -707,7 +711,7 @@ input:focus {
   background-color: rgba(217, 217, 217, 0.02);
   height: 40px;
   width: 25vw;
-  border-radius: 5px;
+  border-radius: 10px;
   border: 1px solid #2E333B;
   padding-left: 15px;
   font-size: 16px;
@@ -817,9 +821,10 @@ input:focus {
 }
 
 #message {
-  width: 80vw;
+  width: 80.4vw;
   height: 80px;
   padding-top: 10px;
+  max-height: 130px;
 }
 
 .SubmitContact {
