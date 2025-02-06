@@ -30,7 +30,6 @@ function App() {
         <RadialBlur top = "140"/>
         <BackgroundDesign top="180" />
         <RadialBlur top = "200"/>
-        <RadialBlur top = "260"/>
       </div>
       <div className='content-layer'>
         <DesktopNavbar/>
