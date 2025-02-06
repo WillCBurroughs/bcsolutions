@@ -292,12 +292,13 @@ code {
 }
 
 .bottomDecorations {
-  display: flex;
-  justify-content: space-between; 
-  align-items: center;
-  width: 28%;
-  padding: 0 20px;
   position: absolute;
+  top: 355px;
+  transform: translateX(23px);
+  width: calc(23vw - 0px) ;
+  height: 30px;
+  display: flex; 
+  justify-content: space-between; 
 }
 
 .bottomLeftDecoration {
@@ -355,14 +356,6 @@ code {
   object-fit: cover; 
   overflow: hidden; 
   width: 100%;
-}
-
-#secondBenefit {
-  margin-top: -55px;
-}
-
-#thirdBenefit {
-  margin-top: 20px;
 }
 
 .DesktopIconHolder {
