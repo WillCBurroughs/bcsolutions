@@ -1,9 +1,11 @@
 {
   "files": {
-    "main.css": "/static/css/main.dbc8203b.css",
-    "main.js": "/static/js/main.34ad5f86.js",
+    "main.css": "/static/css/main.e4efdf1b.css",
+    "main.js": "/static/js/main.954d7f97.js",
     "static/js/488.016c06a1.chunk.js": "/static/js/488.016c06a1.chunk.js",
     "static/media/HeaderHome.png": "/static/media/HeaderHome.84a25bf2926ec5c64b8e.png",
+    "static/media/FirstBenefit.png": "/static/media/FirstBenefit.7eac8d2ac3ef2301ec25.png",
+    "static/media/SecondBenefit.png": "/static/media/SecondBenefit.596a61b3cf17e4542b0d.png",
     "static/media/Create.png": "/static/media/Create.b30bf8ab8b41e4fd112f.png",
     "static/media/ThirdBenefit.png": "/static/media/ThirdBenefit.563b547d356483cda6bf.png",
     "static/media/noah.png": "/static/media/noah.630f8162db7d61410040.png",
@@ -13,17 +15,15 @@
     "static/media/Web.png": "/static/media/Web.a6a70d1ca7fd0befdb49.png",
     "static/media/FooterDesktop.svg": "/static/media/FooterDesktop.efa21b42ee88218a778fa722290466da.svg",
     "static/media/CustomDesigns.png": "/static/media/CustomDesigns.19ba965590d7cf288628.png",
-    "static/media/SecondBenefit.svg": "/static/media/SecondBenefit.b5a3389978873db9f7bf0963b0c69510.svg",
-    "static/media/FirstBenefit.svg": "/static/media/FirstBenefit.396bde4d9c7836aa17e63d147d1dd9b3.svg",
     "static/media/Background.svg": "/static/media/Background.3f203ff7cefe165ad45f07f61b9df3d3.svg",
     "static/media/Logo.svg": "/static/media/Logo.87526e782355ddf41802eb55f170938b.svg",
     "index.html": "/index.html",
-    "main.dbc8203b.css.map": "/static/css/main.dbc8203b.css.map",
-    "main.34ad5f86.js.map": "/static/js/main.34ad5f86.js.map",
+    "main.e4efdf1b.css.map": "/static/css/main.e4efdf1b.css.map",
+    "main.954d7f97.js.map": "/static/js/main.954d7f97.js.map",
     "488.016c06a1.chunk.js.map": "/static/js/488.016c06a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.dbc8203b.css",
-    "static/js/main.34ad5f86.js"
+    "static/css/main.e4efdf1b.css",
+    "static/js/main.954d7f97.js"
   ]
 }
