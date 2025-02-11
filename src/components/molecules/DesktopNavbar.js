@@ -1,6 +1,6 @@
 import HeaderNavbar from "../atoms/HeaderNavbar";
 import LogoNavbar from "../atoms/LogoNavbar";
-import '../../index.css'
+import '../../index.css';
 
 function DesktopNavbar() {
   return (
