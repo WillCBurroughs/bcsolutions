@@ -1,4 +1,4 @@
-import DesktopNavbar from './components/molecules/DesktopNavbar';
+import NavBar from './components/organisms/NavBar';
 import './index.css';
 import BackgroundDesign from './components/atoms/BackgroundDesign';
 import Introducing from './components/atoms/Introducing';
@@ -32,7 +32,7 @@ function App() {
         <RadialBlur top = "200"/>
       </div>
       <div className='content-layer'>
-        <DesktopNavbar/>
+        <NavBar/>
         <Introducing/>
         <MainHeader/>
         <Partnering/>
