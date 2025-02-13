@@ -1,7 +1,7 @@
 import NavBar from './components/organisms/NavBar';
 import './index.css';
 import BackgroundDesign from './components/atoms/BackgroundDesign';
-import Introducing from './components/atoms/Introducing';
+import IntroducingArea from './components/molecules/IntroducingArea';
 import MainHeader from './components/atoms/MainHeader';
 import RadialBlur from './components/atoms/RadialBlur';
 import Partnering from './components/atoms/Partnering';
@@ -33,7 +33,7 @@ function App() {
       </div>
       <div className='content-layer'>
         <NavBar/>
-        <Introducing/>
+        <IntroducingArea/>
         <MainHeader/>
         <Partnering/>
         <GetStarted/>
