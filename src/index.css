@@ -882,3 +882,16 @@ input:focus {
 a {
   text-decoration: none;
 }
+
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  background-clip: content-box !important;
+  background-color: rgba(255, 244, 244, 0.2) !important; /* Reset background */
+  color: #F2F3F8 !important; /* Set text color */
+  -webkit-text-fill-color: #F2F3F8 !important; /* Force text color */
+  box-shadow: 0 0 0px 1000px #121212 inset !important; /* Override autofill yellow */
+  transition: background-color 5000s ease-in-out 0s; /* Ensure autofill doesn't apply */
+}
