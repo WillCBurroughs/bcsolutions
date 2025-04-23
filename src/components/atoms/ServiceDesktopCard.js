@@ -18,10 +18,10 @@ function ServiceDesktopCard(props) {
             </p>
             <img src={props.imageSRC} className= {props.imgClass}/>
         </div>
-        <div className="bottomServiceDecorations" id = {props.decorationID}>
+        {/* <div className="bottomServiceDecorations" id = {props.decorationID}>
             <div className="bottomLeftMemberDecoration"></div>
             <div className="bottomRightMemberDecoration"></div>
-        </div>
+        </div> */}
     </div>
   );
 }
