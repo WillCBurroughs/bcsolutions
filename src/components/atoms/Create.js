@@ -1,4 +1,3 @@
-import CreateImage from '../../images/Create.png'
 import TestImage from '../../images/HeaderHome.png'
 import '../../index.css'
 

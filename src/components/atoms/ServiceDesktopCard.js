@@ -16,7 +16,7 @@ function ServiceDesktopCard(props) {
             <p className='ServiceExplanation'>
                 {props.serviceExplanation}
             </p>
-            <img src={props.imageSRC} className= {props.imgClass}/>
+            <img src={props.imageSRC} className= {props.imgClass} alt='Service Desktop IMG'/>
         </div>
         <div className="bottomServiceDecorations" id = {props.decorationID}>
             <div className="bottomLeftMemberDecoration"></div>

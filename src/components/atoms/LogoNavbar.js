@@ -3,7 +3,7 @@ import '../../index.css'
 
 function LogoNavbar() {
   return (
-    <img src = {Logo} width = {"32px"} className='logoImage' />
+    <img src = {Logo} width = {"32px"} className='logoImage' alt='BC Solutions Logo' />
   );
 }
 
