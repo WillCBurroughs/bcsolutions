@@ -10,7 +10,7 @@ function BenefitCardDesktop(props) {
         <p className='ParagraphBenefitsCard'>
             {props.paragraphText}
         </p>
-        <img src={props.imageSRC} className= {props.imgClass}/>
+        <img src={props.imageSRC} className= {props.imgClass} alt=""/>
         <div className="bottomDecorations" id = {props.decorationID}>
             <div className="bottomLeftDecoration"></div>
             <div className="bottomRightDecoration"></div>

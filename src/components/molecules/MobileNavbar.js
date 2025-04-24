@@ -8,11 +8,11 @@ import ServicesMobile from '../../images/ServicesMobile.svg';
 function MobileNavbar(){
     return(
         <div className='mobileNavbar'>
-            <a href="#value"><img src= {BenefitsMobile}/></a>
-            <a href="#team"><img src= {AboutUsMobile}/></a>
-            <a href="#introducing"><img src= {HomeMobile}/></a>
-            <a href="#services"><img src= {ServicesMobile}/></a>
-            <a href="#ContactPlace"><img src= {ContactUs}/></a>
+            <a href="#value"><img src= {BenefitsMobile} alt=""/></a>
+            <a href="#team"><img src= {AboutUsMobile} alt=""/></a>
+            <a href="#introducing"><img src= {HomeMobile} alt=""/></a>
+            <a href="#services"><img src= {ServicesMobile} alt=""/></a>
+            <a href="#ContactPlace"><img src= {ContactUs} alt=""/></a>
         </div>
     )
 }

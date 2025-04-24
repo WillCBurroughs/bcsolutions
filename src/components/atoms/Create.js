@@ -4,7 +4,7 @@ import '../../index.css'
 
 function Create() {
   return (
-    <img src = {TestImage} width = {"70%"} className='Create' />
+    <img src = {TestImage} width = {"70%"} className='Create' alt="" />
   );
 }
 
