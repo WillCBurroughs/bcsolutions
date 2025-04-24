@@ -8,7 +8,7 @@ function TeamMember(props) {
             <div className="TopLeftDecoration"></div>
             <div className="TopRightDecoration"></div>
         </div>
-        <img src={props.imageSRC} className= {props.imgClass}/>
+        <img src={props.imageSRC} className= {props.imgClass} alt='Team Member'/>
 
         <div className='holdTextMember'>
             <h3 className='TeamMemberName'>

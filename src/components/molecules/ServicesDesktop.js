@@ -4,7 +4,6 @@ import ServiceDesktopCard from '../atoms/ServiceDesktopCard';
 import AppImage from '../../images/App.png';
 import RedesignImage from '../../images/Redesign.png';
 import WebImage from '../../images/Web.png';
-import App from '../../App';
 
 function ServicesDesktop() {
   return (
