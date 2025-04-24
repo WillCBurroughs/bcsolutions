@@ -9,6 +9,7 @@ function BackgroundDesign(props) {
       width="100%"
       className="backgroundImage"
       style={{ marginTop: `${props.top}%` }} 
+      alt=""
     />
   );
 }
