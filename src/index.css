@@ -71,6 +71,12 @@ code {
   justify-content: flex-start; /* Left-aligned for left section */
 }
 
+/* Dummy class */
+.debug-css-class {
+  outline: 1px solid red;
+}
+
+
 .navbar-right {
   justify-content: flex-end; /* Right-aligned for right section */
 }
