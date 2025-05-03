@@ -65,7 +65,7 @@ code {
 
 .navbar-left,
 .navbar-right {
-  flex: 1; /* Equal space for left and right sections */
+  flex: 1; /* Equal  space for left and right sections */
   display: flex;
   align-items: center;
   justify-content: flex-start; /* Left-aligned for left section */
