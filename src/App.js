@@ -6,7 +6,7 @@ import MainHeader from './components/atoms/MainHeader';
 import RadialBlur from './components/atoms/RadialBlur';
 import Partnering from './components/atoms/Partnering';
 import GetStarted from './components/atoms/GetStarted';
-import Create from './components/atoms/Create';
+import CreateArea from './components/molecules/CreateArea';
 import BenefitsHeader from './components/atoms/BenefitsHeader';
 import BenefitsDesktop from './components/molecules/BenefitsDesktop';
 import DesktopIconHolder from './components/molecules/DesktopIconHolder';
@@ -37,7 +37,7 @@ function App() {
         <MainHeader/>
         <Partnering/>
         <GetStarted/>
-        <Create/>
+        <CreateArea/>
         <BenefitsHeader/>
         <BenefitsDesktop/>
         <DesktopIconHolder/>

@@ -274,6 +274,12 @@ code {
   left: 15%;
 }
 
+.CreateMobile {
+  position: absolute;
+  top: 500px;
+  left: 0%;
+}
+
 .centerAlignBenefits{
   position: absolute;
   top: 1080px;
