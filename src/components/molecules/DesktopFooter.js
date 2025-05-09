@@ -5,7 +5,7 @@ import FooterDesktopImage from '../../images/FooterDesktop.svg';
 function DesktopFooter() {
   return (
     <div className='BottomFooter'>
-        <img src= {FooterDesktopImage} alt='Footer'/>
+        <img src= {FooterDesktopImage} alt='Footer' className="responsive-footer"/>
     </div>
   );
 }
