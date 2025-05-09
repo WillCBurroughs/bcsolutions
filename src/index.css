@@ -888,9 +888,22 @@ input:focus {
   display: flex;
   justify-content: center; 
   align-items: center; 
-  width: 60%; 
   z-index: 5;
+  width: 100%;
 }
+
+.responsive-footer{
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .responsive-footer {
+    transform: scale(1.5);
+    transform-origin: center;
+    overflow-x: hidden;
+  }
+}
+
 
 a {
   text-decoration: none;
