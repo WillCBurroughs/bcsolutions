@@ -3,18 +3,14 @@ import '../../index.css'
 
 function BenefitCardMobile(props) {
   return (
-    <div className='BenefitCardDesktop'>
-        <h3 className='HeaderBenefitsCard'>
+    <div className='BenefitsCardMobile'>
+        <h3 className='BenefitsHeaderMobile'>
             {props.headerText}
         </h3>
-        <p className='ParagraphBenefitsCard'>
+        <p className='ParagraphBenefitsCardMobile'>
             {props.paragraphText}
         </p>
         <img src={props.imageSRC} className= {props.imgClass} alt=""/>
-        <div className="bottomDecorations" id = {props.decorationID}>
-            <div className="bottomLeftDecoration"></div>
-            <div className="bottomRightDecoration"></div>
-        </div>
     </div>
   );
 }

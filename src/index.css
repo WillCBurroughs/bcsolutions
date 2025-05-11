@@ -297,7 +297,7 @@ code {
   }
 }
 
-.BenefitsHeader {
+.BenefitsHeader, .BenefitsHeaderMobile {
   font-family: "Nunito";
   font-size: 36px;
   color: white;
@@ -305,7 +305,11 @@ code {
   font-weight: medium;
 }
 
-.BenefitCardDesktop {
+.BenefitsHeaderMobile {
+  margin-left: 20px;
+}
+
+.BenefitCardDesktop, .BenefitsCardMobile {
   height: 25vw;
   width: 26vw;
   color: white;
@@ -316,16 +320,26 @@ code {
   backdrop-filter: blur(5px);
 }
 
-.BenefitCardDesktop h3{
+.BenefitsCardMobile {
+  width: 90%;
+  height: 400px;
+  flex-direction: column; 
+  align-items: center;
+  align-content: center;     
+  gap: 20px;
+}
+
+.BenefitCardDesktop, .BenefitsCardMobile h3{
   font-family: "Nunito";
 }
 
-.BenefitCardDesktop p{
+.BenefitCardDesktop, .BenefitsCardMobile p{
   font-family: "League Spartan";
 }
 
+/* Find place */
 
-.BenefitsDesktop {
+.BenefitsDesktop, .BenefitsMobile {
     position: absolute; 
     top: 1500px; 
     height: 600px;
@@ -335,6 +349,15 @@ code {
     display: flex; 
     justify-content: space-between; 
     padding: 20px; 
+}
+
+.BenefitsMobile {
+  flex-direction: column; 
+  align-items: center;    
+  position: absolute;
+  top: 1600px;
+  height: 1300px;
+  width: 100%;
 }
 
 .bottomDecorations {
@@ -369,12 +392,16 @@ code {
   top: 0px;
 }
 
-.ParagraphBenefitsCard {
+.ParagraphBenefitsCard, .ParagraphBenefitsCardMobile {
   position: relative;
   left: 25px;
   width: 21vw;
   font-weight: 200;
   font-size: 18px;
+}
+
+.ParagraphBenefitsCardMobile {
+  width: 90%;
 }
 
 .FirstBenefit {
@@ -387,8 +414,13 @@ code {
   height: 55%;
 }
 
-.SecondBenefit{
+.SecondBenefit {
   margin-left: 3vw;
+  width: 77%;
+}
+
+.SecondBenefitMobile{
+  margin-left: 7vw;
   width: 77%;
 }
 

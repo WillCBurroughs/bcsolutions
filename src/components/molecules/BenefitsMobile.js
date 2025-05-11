@@ -7,7 +7,7 @@ import ThirdBenefit from '../../images/ThirdBenefit.png';
 
 function BenefitsMobile() {
   return (
-    <div className='BenefitsDesktop'>
+    <div className='BenefitsMobile'>
         <BenefitCardMobile 
             headerText = "SEO Optimization"
             paragraphText = "Rank higher and drive traffic with tailored SEO strategies."
@@ -18,7 +18,7 @@ function BenefitsMobile() {
             headerText = "Custom Designs"
             paragraphText = "Unique, tailored designs that elevate your brand and captivate audiences."
             imageSRC = {SecondBenefit}
-            imgClass = "SecondBenefit"
+            imgClass = "SecondBenefitMobile"
             decorationID = "secondBenefit"
         />
         <BenefitCardMobile 
