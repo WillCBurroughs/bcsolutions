@@ -280,7 +280,7 @@ code {
   left: 0%;
 }
 
-.centerAlignBenefits{
+.centerAlignBenefits {
   position: absolute;
   top: 1080px;
   display: flex;
@@ -288,6 +288,14 @@ code {
   align-items: center;           
   text-align: center; 
   width: 100vw;
+}
+
+@media (max-width: 768px) {
+  .centerAlignBenefits {
+    top: 850px;
+    transform-origin: center;
+    overflow-x: hidden;
+  }
 }
 
 .BenefitsHeader {
