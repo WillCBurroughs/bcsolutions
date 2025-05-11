@@ -454,13 +454,18 @@ code {
   top: 2350px;
 }
 
-.ItemHeader {
+.ItemHeader, .ItemHeaderMobile {
   font-family: "Nunito";
   font-size: 14px;
   font-weight: 200;
   color: #F2F3F8;
   position: relative;
   margin-top: 20px;
+}
+
+.ItemHeaderMobile{
+  vertical-align: middle;
+  margin-top: 14px;
 }
 
 .holdImage{
@@ -473,6 +478,14 @@ code {
   width: 81px;
 }
 
+.dash {
+  width: 10px;       
+  height: 1px;
+  background-color: #6577C9; 
+  border-radius: 1px;
+  opacity: 1;
+}
+
 .ItemComponentDesktop, .ItemComponentMobile, .ItemComponentMobileRight {
   display: flex; 
   flex-direction: column; 
@@ -483,11 +496,12 @@ code {
 }
 
 .ItemComponentMobile, .ItemComponentMobileRight{
+  align-content: center;
   flex-direction: row;
   width: 100%;
   align-items: left;
   justify-content: flex-start;
-  gap: 10px;
+  gap: 5px;
 }
 
 .ItemComponentMobileRight{

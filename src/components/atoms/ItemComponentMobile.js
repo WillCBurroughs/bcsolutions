@@ -5,9 +5,10 @@ function ItemComponentMobile(props) {
     if(props.orientation == "right"){
         return (
         <div className='ItemComponentMobileRight'>
-            <h3 className='ItemHeader'>
+            <h3 className='ItemHeaderMobile'>
                 {props.headerText}
             </h3>
+            <span className="dash" />
             <img src = {props.imageSRC} className= {props.imageClass} alt=""/>
         </div>
         )
@@ -16,7 +17,8 @@ function ItemComponentMobile(props) {
         return(
         <div className='ItemComponentMobile'>
             <img src = {props.imageSRC} className= {props.imageClass} alt=""/>
-            <h3 className='ItemHeader'>
+            <span className="dash" />
+            <h3 className='ItemHeaderMobile'>
                 {props.headerText}
             </h3>
         </div>
