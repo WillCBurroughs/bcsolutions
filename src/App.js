@@ -8,7 +8,7 @@ import Partnering from './components/atoms/Partnering';
 import GetStarted from './components/atoms/GetStarted';
 import CreateArea from './components/molecules/CreateArea';
 import BenefitsHeader from './components/atoms/BenefitsHeader';
-import BenefitsDesktop from './components/molecules/BenefitsDesktop';
+import BenefitsDisplay from './components/organisms/BenefitsDisplay';
 import DesktopIconHolder from './components/molecules/DesktopIconHolder';
 import OurTeam from './components/atoms/OurTeam';
 import OurTeamDesktop from './components/molecules/OurTeamDesktop';
@@ -39,7 +39,7 @@ function App() {
         <GetStarted/>
         <CreateArea/>
         <BenefitsHeader/>
-        <BenefitsDesktop/>
+        <BenefitsDisplay/>
         <DesktopIconHolder/>
         <OurTeam/> 
         <OurTeamDesktop/>
