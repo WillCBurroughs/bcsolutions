@@ -437,7 +437,7 @@ code {
   width: 100%;
 }
 
-.DesktopIconHolder {
+.DesktopIconHolder, .MobileIconHolder {
   position: absolute; 
   top: 1750px; 
   height: 100px;
@@ -447,6 +447,12 @@ code {
   display: flex; 
   justify-content: space-between; 
   padding: 20px; 
+}
+
+.MobileIconHolder {
+  position: absolute; 
+  flex-direction: column;
+  top: 2350px;
 }
 
 .ItemHeader {
@@ -463,13 +469,30 @@ code {
   width: 60px;
 }
 
-.ItemComponentDesktop {
+.holdImageMobile{
+  height: 81px;
+  width: 81px;
+}
+
+.ItemComponentDesktop, .ItemComponentMobile, .ItemComponentMobileRight {
   display: flex; 
   flex-direction: column; 
   align-items: center; 
   justify-content: center; 
   text-align: center; 
   height: 100%; 
+}
+
+.ItemComponentMobile, .ItemComponentMobileRight{
+  flex-direction: row;
+  width: 100%;
+  align-items: left;
+  justify-content: flex-start;
+  gap: 10px;
+}
+
+.ItemComponentMobileRight{
+  justify-content: flex-end;
 }
 
 .centerAlignOurTeam {
@@ -608,7 +631,7 @@ code {
   width: 33vw;
 }
 
-.centerAlignOurServices {
+.centerAlignOurServices, .centerAlignOurServicesMobile {
   position: absolute;
   top: 2760px;
   display: flex;
