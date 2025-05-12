@@ -519,6 +519,12 @@ code {
   width: 100vw;
 }
 
+@media (max-width: 768px) {
+  .centerAlignOurTeam{
+    top: 2800px;
+  }
+}
+
 .OurTeam {
   font-family: "Nunito";
   font-size: 36px;
@@ -535,6 +541,12 @@ code {
   display: flex; 
   justify-content: space-between; 
   padding: 20px; 
+}
+
+@media (max-width: 768px) {
+  .OurTeamDesktop{
+    top: 3200px;
+  }
 }
 
 .TeamMemberDesktop {
@@ -655,6 +667,13 @@ code {
   width: 100vw;
 }
 
+@media (max-width: 768px) {
+  .centerAlignOurServices {
+    top: 3200px;
+  }
+}
+
+
 .OurServices {
   font-family: "Nunito";
   font-size: 36PX;
@@ -671,6 +690,12 @@ code {
   display: flex; 
   justify-content: space-between; 
   padding: 20px; 
+}
+
+@media (max-width: 768px) {
+  .ServicesDesktop {
+    top: 3600px;
+  }
 }
 
 .ServiceDesktopCard {
