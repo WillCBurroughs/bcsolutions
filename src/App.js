@@ -17,6 +17,7 @@ import ServicesDesktop from './components/molecules/ServicesDesktop';
 import GetInTouch from './components/atoms/GetInTouch';
 import ContactDesktop from './components/molecules/ContactDesktop';
 import DesktopFooter from './components/molecules/DesktopFooter';
+import SelectOurTeam from './components/organisms/SelectOurTeam';
 
 function App() {
   return (
@@ -42,7 +43,7 @@ function App() {
         <BenefitsDisplay/>
         <IconHolder/>
         <OurTeam/> 
-        <OurTeamDesktop/>
+        <SelectOurTeam/>
         <ServicesWeOffer/>
         <ServicesDesktop/>
         <GetInTouch/>
