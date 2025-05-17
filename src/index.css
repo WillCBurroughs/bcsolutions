@@ -546,6 +546,7 @@ code {
 @media (max-width: 768px) {
   .OurTeamDesktop{
     top: 3200px;
+    flex-direction: column; 
   }
 }
 
@@ -611,7 +612,23 @@ code {
   width: 28vw;
 }
 
+.willMobile {
+  position: absolute;
+  top: 40%;
+  left: 26%; 
+  transform: translate(-50%, -50%);
+  width: 28vw;
+}
+
 .noah {
+  position: absolute;
+  top: 40%;
+  left: 76%; 
+  transform: translate(-50%, -50%);
+  width: 31vw;
+}
+
+.noahMobile{
   position: absolute;
   top: 40%;
   left: 76%; 
