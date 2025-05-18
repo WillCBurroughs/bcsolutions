@@ -13,7 +13,7 @@ import IconHolder from './components/organisms/IconHolder';
 import OurTeam from './components/atoms/OurTeam';
 import ServicesWeOffer from './components/atoms/ServicesWeOffer';
 import GetInTouch from './components/atoms/GetInTouch';
-import ContactDesktop from './components/molecules/ContactDesktop';
+import Contact from './components/organisms/Contact';
 import DesktopFooter from './components/molecules/DesktopFooter';
 import SelectOurTeam from './components/organisms/SelectOurTeam';
 import DisplayServices from './components/organisms/DisplayServices';
@@ -46,7 +46,7 @@ function App() {
         <ServicesWeOffer/>
         <DisplayServices/>
         <GetInTouch/>
-        <ContactDesktop/>
+        <Contact/>
         <DesktopFooter/>
       </div>
     </>
