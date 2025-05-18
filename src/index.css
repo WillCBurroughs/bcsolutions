@@ -659,10 +659,10 @@ code {
 
 .noahMobile{
   position: absolute;
-  top: 40%;
-  left: 76%; 
+  top: calc(20% + 500px);
+  left: 50%; 
   transform: translate(-50%, -50%);
-  width: 31vw;
+  width: 82vw;
 }
 
 .holdTextMember, .holdTextMemberMobile {
@@ -735,7 +735,7 @@ code {
 
 @media (max-width: 768px) {
   .centerAlignOurServices {
-    top: 3500px;
+    top: 5000px;
   }
 }
 
@@ -746,7 +746,7 @@ code {
   color: white;
 }
 
-.ServicesDesktop{
+.ServicesDesktop, .ServicesMobile{
   position: absolute; 
   top: 3100px; 
   height: 450px;
@@ -758,10 +758,8 @@ code {
   padding: 20px; 
 }
 
-@media (max-width: 768px) {
-  .ServicesDesktop {
-    top: 3600px;
-  }
+.ServicesMobile {
+  top: 4600px;
 }
 
 .ServiceDesktopCard {
@@ -843,6 +841,13 @@ code {
   top: 3490px;
 }
 
+@media (max-width: 768px) {
+  .GetInTouch {
+    top: 4400px;
+  }
+}
+
+
 .GetInTouch h3 {
   color: #F2F3F8;
   font-family: "Nunito";
@@ -873,6 +878,12 @@ code {
   border-radius: 15px;
   border: 1px solid #2E333B;
   overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .ContactDesktop {
+    top: 5500px;
+  }
 }
 
 .HoldFormRow {
