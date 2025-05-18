@@ -21,7 +21,7 @@ function TeamMemberMobile(props) {
                 {props.JobDescription}
             </p>
         </div>
-        <div className="bottomMemberDecorations" id = {props.decorationID}>
+        <div className="bottomMemberDecorationsMobile" id = {props.decorationID}>
             <div className="bottomLeftMemberDecoration"></div>
             <div className="bottomRightMemberDecoration"></div>
         </div>
