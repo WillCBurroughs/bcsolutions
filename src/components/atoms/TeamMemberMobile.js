@@ -3,7 +3,7 @@ import '../../index.css'
 
 function TeamMemberMobile(props) {
   return (
-    <div className='TeamMemberDesktop'>
+    <div className='TeamMemberMobile'>
         <div className="TopMemberDecorations" id = {props.decorationID}>
             <div className="TopLeftDecoration"></div>
             <div className="TopRightDecoration"></div>

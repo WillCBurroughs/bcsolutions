@@ -11,7 +11,6 @@ import BenefitsHeader from './components/atoms/BenefitsHeader';
 import BenefitsDisplay from './components/organisms/BenefitsDisplay';
 import IconHolder from './components/organisms/IconHolder';
 import OurTeam from './components/atoms/OurTeam';
-import OurTeamDesktop from './components/molecules/OurTeamDesktop';
 import ServicesWeOffer from './components/atoms/ServicesWeOffer';
 import ServicesDesktop from './components/molecules/ServicesDesktop';
 import GetInTouch from './components/atoms/GetInTouch';

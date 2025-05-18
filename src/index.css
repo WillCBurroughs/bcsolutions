@@ -542,16 +542,33 @@ code {
   padding: 20px; 
 }
 
-@media (max-width: 768px) {
-  .OurTeamDesktop{
-    top: 3200px;
-    flex-direction: column; 
-  }
+.OurTeamMobile {
+  position: absolute; 
+  top: 3400px;
+  height: 1000px;
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  width: 100%; 
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-between; 
+  padding: 20px;
+  margin-left: 10px; 
 }
 
 .TeamMemberDesktop {
   height: 40vw;
   width: 39vw;
+  color: white;
+  background-color: #0C1016;
+  border-radius: 15px;
+  border: 1px solid #2E333B;
+  overflow: hidden;
+}
+
+.TeamMemberMobile {
+  height: 472px;
+  width: 395px;
   color: white;
   background-color: #0C1016;
   border-radius: 15px;
