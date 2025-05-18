@@ -225,6 +225,14 @@ code {
   width: 100vh;
 }
 
+@media (max-width: 768px) {
+  .blurredCircle {
+    height: 100vw;
+    width: 100vw;
+  }
+}
+
+
 .centerAlignPartnering {
   display: flex;
   justify-content: center; 
@@ -358,6 +366,8 @@ code {
   top: 1600px;
   height: 1300px;
   width: 100%;
+  padding: 0;
+  overflow-x: hidden;
 }
 
 .bottomDecorations {
@@ -521,6 +531,7 @@ code {
 @media (max-width: 768px) {
   .centerAlignOurTeam{
     top: 2800px;
+    overflow-x: hidden;
   }
 }
 
@@ -550,10 +561,10 @@ code {
   transform: translate(-50%, -50%); 
   width: 100%; 
   display: flex; 
+  align-items: center;
   flex-direction: column; 
   justify-content: space-between; 
-  padding: 20px;
-  margin-left: 10px; 
+  overflow-x: hidden;
 }
 
 .TeamMemberDesktop {
@@ -1078,8 +1089,6 @@ input:focus {
   align-items: center;
 }
 
-
-
 .BottomFooter {
   position: absolute; 
   top: calc(4000px + 40vh);
@@ -1090,6 +1099,7 @@ input:focus {
   align-items: center; 
   z-index: 5;
   width: 100%;
+  overflow-x: hidden;
 }
 
 .responsive-footer{
@@ -1116,9 +1126,6 @@ input:focus {
     margin-top: 10px;
   }
 }
-
-
-
 
 a {
   text-decoration: none;
