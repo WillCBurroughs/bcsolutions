@@ -14,7 +14,7 @@ function ContactMobile() {
         phone: "",
         start: "",
         password: "",
-        budget: 10000,
+        budget: 30000,
         details: "",
     });
 
@@ -65,12 +65,16 @@ function ContactMobile() {
                 value={formData.name || ""}
                 onChange={handleChange}
             />
+        </div>
+        <div className='HoldFormRow'>
             <FormElement
                 placeholder="Title"
                 name="title"
                 value={formData.title || ""}
                 onChange={handleChange}
             />
+        </div>
+        <div className='HoldFormRow'>
             <FormElement
                 placeholder="Company"
                 name="company"
@@ -86,6 +90,8 @@ function ContactMobile() {
                 value={formData.email || ""}
                 onChange={handleChange}
             />
+        </div>
+        <div className='HoldFormRow'>
             <FormElement
                 placeholder="Phone Number"
                 name="phone"
@@ -93,6 +99,8 @@ function ContactMobile() {
                 value={formData.phone || ""}
                 onChange={handleChange}
             />
+        </div>
+        <div className='HoldFormRow'>
             <FormElement
                 placeholder="Desired Start Date"
                 name="start"
@@ -100,7 +108,7 @@ function ContactMobile() {
                 onChange={handleChange}
             />
         </div>
-        <div className='FullRow'>
+        <div className='FullRowMobile'>
             <Slider
                 label="Budget"
                 name="budget"

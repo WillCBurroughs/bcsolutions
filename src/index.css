@@ -896,6 +896,7 @@ code {
 }
 
 .ContactMobile {
+  height: 600px;
   top: 5780px;
 }
 
@@ -1036,8 +1037,14 @@ input:focus {
   pointer-events: none;
 }
 
-.FullRow {
+.FullRow, .FullRowMobile {
   width: 80vw;
+}
+
+.FullRowMobile{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 15px;
 }
 
 #ProjectDetails {
@@ -1098,7 +1105,15 @@ input:focus {
   .BottomFooter {
     top: 6200px;
   }
+  .form-element{
+    width: 85vw;
+  }
+  .form-input{
+    width: 80vw;
+  }
 }
+
+
 
 
 a {
