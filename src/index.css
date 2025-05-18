@@ -1078,6 +1078,8 @@ input:focus {
   align-items: center;
 }
 
+
+
 .BottomFooter {
   position: absolute; 
   top: calc(4000px + 40vh);
@@ -1109,6 +1111,9 @@ input:focus {
   }
   .form-input{
     width: 80vw;
+  }
+  .HoldSubmit{
+    margin-top: 10px;
   }
 }
 
