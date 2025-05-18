@@ -759,11 +759,14 @@ code {
 }
 
 .ServicesMobile {
-  top: 4600px;
+  top: 4700px;
   flex-direction: column; 
+  height: 1200px;
+  width: auto;
+  padding: 0;
 }
 
-.ServiceDesktopCard {
+.ServiceDesktopCard, .ServiceMobileCard {
   height: 27vw;
   width: 26vw;
   color: white;
@@ -772,6 +775,11 @@ code {
   border-radius: 15px;
   border: 1px solid #2E333B;
   overflow: hidden;
+}
+
+.ServiceMobileCard {
+  height: 383px;
+  width: 395px;
 }
 
 .TopServiceDecorations {
@@ -817,6 +825,12 @@ code {
   width: 22vw;
   font-size: 18px;
   font-weight: 300;
+}
+
+@media (max-width: 768px) {
+  .ServiceExplanation {
+    width: 80vw;
+  }
 }
 
 .WebIMG{
