@@ -12,11 +12,11 @@ import BenefitsDisplay from './components/organisms/BenefitsDisplay';
 import IconHolder from './components/organisms/IconHolder';
 import OurTeam from './components/atoms/OurTeam';
 import ServicesWeOffer from './components/atoms/ServicesWeOffer';
-import ServicesDesktop from './components/molecules/ServicesDesktop';
 import GetInTouch from './components/atoms/GetInTouch';
 import ContactDesktop from './components/molecules/ContactDesktop';
 import DesktopFooter from './components/molecules/DesktopFooter';
 import SelectOurTeam from './components/organisms/SelectOurTeam';
+import DisplayServices from './components/organisms/DisplayServices';
 
 function App() {
   return (
@@ -44,7 +44,7 @@ function App() {
         <OurTeam/> 
         <SelectOurTeam/>
         <ServicesWeOffer/>
-        <ServicesDesktop/>
+        <DisplayServices/>
         <GetInTouch/>
         <ContactDesktop/>
         <DesktopFooter/>

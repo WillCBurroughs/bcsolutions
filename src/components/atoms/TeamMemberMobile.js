@@ -10,14 +10,14 @@ function TeamMemberMobile(props) {
         </div>
         <img src={props.imageSRC} className= {props.imgClass} alt='Team Member'/>
 
-        <div className='holdTextMember'>
-            <h3 className='TeamMemberName'>
+        <div className='holdTextMemberMobile'>
+            <h3 className='TeamMemberNameMobile'>
                 {props.headerText}
             </h3>
-            <p className='JobTitle'>
+            <p className='JobTitleMobile'>
                 {props.JobTitle}
             </p>
-            <p className='JobDescription'>
+            <p className='JobDescriptionMobile'>
                 {props.JobDescription}
             </p>
         </div>
