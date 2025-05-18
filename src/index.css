@@ -857,7 +857,7 @@ code {
 
 @media (max-width: 768px) {
   .GetInTouch {
-    top: 4900px;
+    top: 5350px;
   }
 }
 
@@ -876,7 +876,7 @@ code {
   margin-top: -10px;
 }
 
-.ContactDesktop {
+.ContactDesktop, .ContactMobile {
   position: absolute; 
   top: 3870px; 
   height: 500px;
@@ -894,10 +894,8 @@ code {
   overflow: hidden;
 }
 
-@media (max-width: 768px) {
-  .ContactDesktop {
-    top: 5500px;
-  }
+.ContactMobile {
+  top: 5780px;
 }
 
 .HoldFormRow {
@@ -1097,7 +1095,7 @@ input:focus {
     top: 5000px;
   }
   .BottomFooter {
-    top: 6000px;
+    top: 6200px;
   }
 }
 
@@ -1105,6 +1103,11 @@ input:focus {
 a {
   text-decoration: none;
 }
+
+/* Use the below line to identify overflow and correct for mobile */
+/* * {
+  outline: 1px solid rgba(255, 0, 0, 0.2);
+} */
 
 
 input:-webkit-autofill,
