@@ -734,7 +734,7 @@ code {
 
 @media (max-width: 768px) {
   .centerAlignOurServices {
-    top: 5000px;
+    top: 3950px;
   }
 }
 
@@ -759,6 +759,7 @@ code {
 
 .ServicesMobile {
   top: 4600px;
+  flex-direction: column; 
 }
 
 .ServiceDesktopCard {
@@ -842,7 +843,7 @@ code {
 
 @media (max-width: 768px) {
   .GetInTouch {
-    top: 4400px;
+    top: 4900px;
   }
 }
 
@@ -1079,6 +1080,10 @@ input:focus {
     transform: scale(1.5);
     transform-origin: center;
     overflow-x: hidden;
+    top: 5000px;
+  }
+  .BottomFooter {
+    top: 6000px;
   }
 }
 
