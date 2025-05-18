@@ -7,7 +7,7 @@ import WebImage from '../../images/Web.png';
 
 function ServicesMobile() {
   return (
-    <div className='ServicesDesktop'>
+    <div className='ServicesMobile'>
         <ServiceMobileCard
             headerText = "Web Solutions"
             serviceExplanation = "Crafting stunning, high-performance websites tailored for impact and engagement."

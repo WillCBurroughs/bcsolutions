@@ -4,10 +4,10 @@ import '../../index.css'
 function TeamMemberMobile(props) {
   return (
     <div className='TeamMemberMobile'>
-        <div className="TopMemberDecorationsMobile" id = {props.decorationID}>
+        {/* <div className="TopMemberDecorationsMobile" id = {props.decorationID}>
             <div className="TopLeftDecoration"></div>
             <div className="TopRightDecoration"></div>
-        </div>
+        </div> */}
         <img src={props.imageSRC} className= {props.imgClass} alt='Team Member'/>
 
         <div className='holdTextMemberMobile'>
@@ -21,10 +21,10 @@ function TeamMemberMobile(props) {
                 {props.JobDescription}
             </p>
         </div>
-        <div className="bottomMemberDecorationsMobile" id = {props.decorationID}>
+        {/* <div className="bottomMemberDecorationsMobile" id = {props.decorationID}>
             <div className="bottomLeftMemberDecoration"></div>
             <div className="bottomRightMemberDecoration"></div>
-        </div>
+        </div> */}
     </div>
   );
 }
