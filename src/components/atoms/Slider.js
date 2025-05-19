@@ -20,6 +20,7 @@ export default function Slider({ label, name, min, max, step, value, onChange })
       <div className="slider-wrapper">
         <input
           type="range"
+          aria-label="Budget"
           name={name}
           min={min}
           max={max}
