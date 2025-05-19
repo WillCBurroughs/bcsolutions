@@ -1,4 +1,4 @@
-import mobileImage from '../../images/CreateMobile.png'
+import mobileImage from '../../images/CreateMobileHighRes.png'
 import '../../index.css'
 
 function CreateMobile() {

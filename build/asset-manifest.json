@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/static/css/main.0be39889.css",
-    "main.js": "/static/js/main.75a2c11d.js",
+    "main.js": "/static/js/main.055c3472.js",
     "static/js/488.016c06a1.chunk.js": "/static/js/488.016c06a1.chunk.js",
     "static/media/HeaderHome.png": "/static/media/HeaderHome.84a25bf2926ec5c64b8e.png",
     "static/media/FirstBenefit.png": "/static/media/FirstBenefit.7eac8d2ac3ef2301ec25.png",
     "static/media/SecondBenefit.png": "/static/media/SecondBenefit.596a61b3cf17e4542b0d.png",
     "static/media/ThirdBenefit.png": "/static/media/ThirdBenefit.563b547d356483cda6bf.png",
+    "static/media/CreateMobileHighRes.png": "/static/media/CreateMobileHighRes.337775567280ec1168c7.png",
     "static/media/noah.png": "/static/media/noah.630f8162db7d61410040.png",
     "static/media/will.png": "/static/media/will.7644d0316b86cc7e6e48.png",
     "static/media/Redesign.png": "/static/media/Redesign.99beda9289f5802b51cb.png",
-    "static/media/CreateMobile.png": "/static/media/CreateMobile.2b06eb7bbd5efb6f9364.png",
     "static/media/App.png": "/static/media/App.8304cc31c03fcd54e7fb.png",
     "static/media/Web.png": "/static/media/Web.a6a70d1ca7fd0befdb49.png",
     "static/media/FooterDesktop.svg": "/static/media/FooterDesktop.efa21b42ee88218a778fa722290466da.svg",
@@ -24,11 +24,11 @@
     "static/media/BenefitsMobile.svg": "/static/media/BenefitsMobile.a10f9f55341433893124389f1fbfdc20.svg",
     "static/media/AboutUsMobile.svg": "/static/media/AboutUsMobile.ad323f1b80205fe63030966f5024c498.svg",
     "main.0be39889.css.map": "/static/css/main.0be39889.css.map",
-    "main.75a2c11d.js.map": "/static/js/main.75a2c11d.js.map",
+    "main.055c3472.js.map": "/static/js/main.055c3472.js.map",
     "488.016c06a1.chunk.js.map": "/static/js/488.016c06a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0be39889.css",
-    "static/js/main.75a2c11d.js"
+    "static/js/main.055c3472.js"
   ]
 }
