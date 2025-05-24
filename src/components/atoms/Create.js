@@ -1,9 +1,9 @@
-import TestImage from '../../images/HeaderHome.png'
+import TestImage from '../../images/Create.webp'
 import '../../index.css'
 
 function Create() {
   return (
-    <img src = {TestImage} width = {"70%"} className='Create' alt="" loading='lazy' />
+    <img src = {TestImage} width = {"70%"} className='Create' alt="" />
   );
 }
 
