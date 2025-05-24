@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.0be39889.css",
-    "main.js": "/static/js/main.232d6b60.js",
+    "main.js": "/static/js/main.d7ff0bf1.js",
     "static/js/488.016c06a1.chunk.js": "/static/js/488.016c06a1.chunk.js",
-    "static/media/HeaderHome.png": "/static/media/HeaderHome.7a50dc019156dd0c7578.png",
-    "static/media/FirstBenefit.png": "/static/media/FirstBenefit.7eac8d2ac3ef2301ec25.png",
     "static/media/SecondBenefit.png": "/static/media/SecondBenefit.596a61b3cf17e4542b0d.png",
-    "static/media/ThirdBenefit.png": "/static/media/ThirdBenefit.563b547d356483cda6bf.png",
+    "static/media/Create.webp": "/static/media/Create.979a96ba57edf3eb65e2.webp",
     "static/media/CreateMobileHighRes.png": "/static/media/CreateMobileHighRes.337775567280ec1168c7.png",
+    "static/media/FirstBenefit.png": "/static/media/FirstBenefit.52adad95c5f086ddca58.png",
+    "static/media/ThirdBenefit.png": "/static/media/ThirdBenefit.6d0c0604d14f747378b7.png",
     "static/media/noah.png": "/static/media/noah.630f8162db7d61410040.png",
     "static/media/will.png": "/static/media/will.7644d0316b86cc7e6e48.png",
     "static/media/SecondBenefit.webp": "/static/media/SecondBenefit.b5f26266f6eef94becef.webp",
@@ -25,11 +25,11 @@
     "static/media/BenefitsMobile.svg": "/static/media/BenefitsMobile.a10f9f55341433893124389f1fbfdc20.svg",
     "static/media/AboutUsMobile.svg": "/static/media/AboutUsMobile.ad323f1b80205fe63030966f5024c498.svg",
     "main.0be39889.css.map": "/static/css/main.0be39889.css.map",
-    "main.232d6b60.js.map": "/static/js/main.232d6b60.js.map",
+    "main.d7ff0bf1.js.map": "/static/js/main.d7ff0bf1.js.map",
     "488.016c06a1.chunk.js.map": "/static/js/488.016c06a1.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0be39889.css",
-    "static/js/main.232d6b60.js"
+    "static/js/main.d7ff0bf1.js"
   ]
 }

@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../index.css';
 import BenefitCardDesktop from '../atoms/BenefitCardDesktop';
-import FirstBenefit from '../../images/FirstBenefit.png';
+import FirstBenefit from '../../images/SmallFirstBenefit.png';
 import SecondBenefit from '../../images/SecondBenefit.webp';
-import ThirdBenefit from '../../images/ThirdBenefit.png';
+import ThirdBenefit from '../../images/SmallThirdBenefit.png';
 
 function BenefitsDesktop() {
   return (
