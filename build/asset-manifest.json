@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.0be39889.css",
-    "main.js": "/static/js/main.d7ff0bf1.js",
+    "main.css": "/static/css/main.df9003d6.css",
+    "main.js": "/static/js/main.3bc4a463.js",
     "static/js/488.016c06a1.chunk.js": "/static/js/488.016c06a1.chunk.js",
     "static/media/SecondBenefit.png": "/static/media/SecondBenefit.596a61b3cf17e4542b0d.png",
     "static/media/Create.webp": "/static/media/Create.979a96ba57edf3eb65e2.webp",
@@ -15,21 +15,28 @@
     "static/media/App.png": "/static/media/App.8304cc31c03fcd54e7fb.png",
     "static/media/Web.png": "/static/media/Web.a6a70d1ca7fd0befdb49.png",
     "static/media/FooterDesktop.svg": "/static/media/FooterDesktop.efa21b42ee88218a778fa722290466da.svg",
+    "static/media/Smallnoah.png": "/static/media/Smallnoah.202cbc87fc903a468beb.png",
+    "static/media/Smallwill.png": "/static/media/Smallwill.d64a46075f65a31efec0.png",
+    "static/media/SmallApp.png": "/static/media/SmallApp.4af3fd1c1ac1d878eae6.png",
+    "static/media/SmallRedesign.png": "/static/media/SmallRedesign.80ba13bb202ce8cf1c0e.png",
+    "static/media/SmallWeb.png": "/static/media/SmallWeb.9eb983bf2d9722e82bef.png",
     "static/media/ServicesMobile.svg": "/static/media/ServicesMobile.b869d7573d751638b48f308ced20b591.svg",
+    "static/media/SmallFirstBenefit.webp": "/static/media/SmallFirstBenefit.eff35a275ec9646d7e53.webp",
     "static/media/CustomDesigns.png": "/static/media/CustomDesigns.19ba965590d7cf288628.png",
+    "static/media/SmallThirdBenefit.webp": "/static/media/SmallThirdBenefit.ea026be880663cd6f97c.webp",
     "static/media/Background.svg": "/static/media/Background.3f203ff7cefe165ad45f07f61b9df3d3.svg",
     "static/media/Logo.svg": "/static/media/Logo.87526e782355ddf41802eb55f170938b.svg",
-    "static/media/HomeMobile.svg": "/static/media/HomeMobile.7fb2c3736eaa39ee92b8d564e295add5.svg",
     "index.html": "/index.html",
+    "static/media/HomeMobile.svg": "/static/media/HomeMobile.7fb2c3736eaa39ee92b8d564e295add5.svg",
     "static/media/ContactUs.svg": "/static/media/ContactUs.7825b56a033a24f28f06ab4d2d886144.svg",
     "static/media/BenefitsMobile.svg": "/static/media/BenefitsMobile.a10f9f55341433893124389f1fbfdc20.svg",
     "static/media/AboutUsMobile.svg": "/static/media/AboutUsMobile.ad323f1b80205fe63030966f5024c498.svg",
-    "main.0be39889.css.map": "/static/css/main.0be39889.css.map",
-    "main.d7ff0bf1.js.map": "/static/js/main.d7ff0bf1.js.map",
+    "main.df9003d6.css.map": "/static/css/main.df9003d6.css.map",
+    "main.3bc4a463.js.map": "/static/js/main.3bc4a463.js.map",
     "488.016c06a1.chunk.js.map": "/static/js/488.016c06a1.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0be39889.css",
-    "static/js/main.d7ff0bf1.js"
+    "static/css/main.df9003d6.css",
+    "static/js/main.3bc4a463.js"
   ]
 }

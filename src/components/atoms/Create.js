@@ -3,7 +3,7 @@ import '../../index.css'
 
 function Create() {
   return (
-    <img src = {TestImage} width = {"70%"} className='Create' alt="" />
+    <img src = {TestImage} width={1008} height={467} className='Create' alt="" />
   );
 }
 
