@@ -279,6 +279,9 @@ code {
   position: absolute;
   top: 500px;
   left: 15%;
+  width: 70vw;        
+  height: auto;
+  max-width: 100%;
 }
 
 .CreateMobile {
