@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../index.css';
 import BenefitCardMobile from '../atoms/BenefitCardMobile';
-import FirstBenefit from '../../images/FirstBenefit.png';
-import SecondBenefit from '../../images/SecondBenefit.png';
-import ThirdBenefit from '../../images/ThirdBenefit.png';
+import FirstBenefit from '../../images/SmallFirstBenefit.png';
+import SecondBenefit from '../../images/SecondBenefit.webp';
+import ThirdBenefit from '../../images/SmallThirdBenefit.png';
 
 function BenefitsMobile() {
   return (
