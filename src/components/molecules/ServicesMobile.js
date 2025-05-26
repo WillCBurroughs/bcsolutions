@@ -1,9 +1,9 @@
 import React from 'react';
 import '../../index.css';
 import ServiceMobileCard from '../atoms/ServiceMobileCard';
-import AppImage from '../../images/App.png';
-import RedesignImage from '../../images/Redesign.png';
-import WebImage from '../../images/Web.png';
+import AppImage from '../../images/SmallApp.png';
+import RedesignImage from '../../images/SmallRedesign.png';
+import WebImage from '../../images/SmallWeb.png';
 
 function ServicesMobile() {
   return (
