@@ -1,8 +1,8 @@
 import React from 'react';
 import '../../index.css';
 import TeamMemberMobile from '../atoms/TeamMemberMobile';
-import will from '../../images/will.png';
-import noah from '../../images/noah.png';
+import will from '../../images/Smallwill.png';
+import noah from '../../images/Smallnoah.png';
 
 function OurTeamMobile() {
   return (
