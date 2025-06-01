@@ -15,6 +15,112 @@ body {
   max-height: calc(4000px + 40vh);
 }
 
+/* rubik-300 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/public/fonts/rubik/rubik-v28-latin-300.woff2') format('woff2');
+}
+
+/* rubik-regular - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/public/fonts/rubik/rubik-v28-latin-regular.woff2') format('woff2'); 
+}
+
+/* rubik-600 - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'Rubik';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/public/fonts/rubik/rubik-v28-latin-600.woff2') format('woff2'); 
+}
+
+/* poppins */
+
+/* poppins-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/public/fonts/poppins/poppins-v23-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* poppins-500 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  src: url('/public/fonts/poppins/poppins-v23-latin-500.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* league-spartan */
+
+/* league-spartan-200 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/public/fonts/league-spartan/league-spartan-v11-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* league-spartan-300 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 300;
+  src: url('/public/fonts/league-spartan/league-spartan-v11-latin-300.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* league-spartan-regular - latin */
+@font-face {
+  font-display: swap; 
+  font-family: 'League Spartan';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/public/fonts/league-spartan/league-spartan-v11-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 200;
+  src: url('/public/fonts/nunito/nunito-v26-latin-200.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+/* nunito-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/public/fonts/nunito/nunito-v26-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* nunito-600 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 600;
+  src: url('/public/fonts/nunito/nunito-v26-latin-600.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Nunito';
+  font-style: normal;
+  font-weight: 800;
+  src: url('/public/fonts/nunito/nunito-v26-latin-800.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
@@ -164,7 +270,7 @@ code {
   font-family: "rubik", sans-serif;
   color: #F2F3F8;
   font-size: 16px;
-  font-weight: 200;
+  font-weight: 300;
   display: flex;
   position: absolute;
   text-align: center; 
