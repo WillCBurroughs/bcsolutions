@@ -1,4 +1,4 @@
-import mobileImage from '../../images/CreateMobileHighRes.png'
+import mobileImage from '../../images/CreateMobileHighRes.webp'
 import '../../index.css'
 
 function CreateMobile() {
