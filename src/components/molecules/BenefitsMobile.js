@@ -2,7 +2,7 @@ import React from 'react';
 import '../../index.css';
 import BenefitCardMobile from '../atoms/BenefitCardMobile';
 import FirstBenefit from '../../images/SmallFirstBenefit.webp';
-import SecondBenefit from '../../images/SecondBenefit.webp';
+import SecondBenefit from '../../images/SecondBenefit_50.webp';
 import ThirdBenefit from '../../images/SmallThirdBenefit.webp';
 
 function BenefitsMobile() {
