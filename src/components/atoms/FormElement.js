@@ -16,7 +16,7 @@ export default function FormElement({ label, type = "text", name, value, onChang
         id= {idPass}
       />
       <label className="form-label">{label}</label>
-      <div className='FormCircle'></div>
+      <div className='FormCircle'></div> 
     </div>
   );
 }
