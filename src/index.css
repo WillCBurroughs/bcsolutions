@@ -194,6 +194,22 @@ code {
   align-items: center;
 }
 
+.privacy-link {
+  position: fixed;
+  bottom: 10px;
+  right: 15px;
+  font-size: 14px;
+  color: #999;
+  text-decoration: none;
+  z-index: 9999;
+  transition: color 0.2s ease;
+}
+
+.privacy-link:hover {
+  color: #eee; /* or your brand accent color */
+  text-decoration: underline;
+}
+
 .logo {
   display: flex; /* Enables flexbox */
   justify-content: center; /* Centers horizontally */
