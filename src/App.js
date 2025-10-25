@@ -17,6 +17,7 @@ import Contact from './components/organisms/Contact';
 import DesktopFooter from './components/molecules/DesktopFooter';
 import SelectOurTeam from './components/organisms/SelectOurTeam';
 import DisplayServices from './components/organisms/DisplayServices';
+import PrivacyPolicy from './components/atoms/PrivacyPolicy';
 
 function App() {
   return (
@@ -48,6 +49,7 @@ function App() {
         <GetInTouch/>
         <Contact/>
         <DesktopFooter/>
+        <PrivacyPolicy/>
       </div>
     </>
   );
