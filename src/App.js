@@ -34,22 +34,24 @@ function App() {
       </div>
       <div className='content-layer'>
         <NavBar/>
-        <IntroducingArea/>
-        <MainHeader/>
-        <Partnering/>
-        <GetStarted/>
-        <CreateArea/>
-        <BenefitsHeader/>
-        <BenefitsDisplay/>
-        <IconHolder/>
-        <OurTeam/> 
-        <SelectOurTeam/>
-        <ServicesWeOffer/>
-        <DisplayServices/>
-        <GetInTouch/>
-        <Contact/>
-        <DesktopFooter/>
-        <PrivacyPolicy/>
+        <main>
+          <IntroducingArea/>
+          <MainHeader/>
+          <Partnering/>
+          <GetStarted/>
+          <CreateArea/>
+          <BenefitsHeader/>
+          <BenefitsDisplay/>
+          <IconHolder/>
+          <OurTeam/> 
+          <SelectOurTeam/>
+          <ServicesWeOffer/>
+          <DisplayServices/>
+          <GetInTouch/>
+          <Contact/>
+          <DesktopFooter/>
+          <PrivacyPolicy/>
+        </main>
       </div>
     </>
   );
