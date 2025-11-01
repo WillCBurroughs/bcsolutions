@@ -3,7 +3,7 @@ import '../../index.css'
 
 function CreateMobile() {
   return (
-    <img src = {mobileImage} width = {"100%"} className='CreateMobile' alt="" />
+    <img src = {mobileImage} fetchpriority="high" width = {"100%"} className='CreateMobile' alt="" />
   );
 }
 
